@@ -44,10 +44,28 @@ namespace Entidades
             return numeroValidado;
         }
 
-        //TODO
         public string BinarioDecimal(string binario)
         {
-            return "lalala";
+            string retorno = "Valor inválido.";
+
+            if(!string.IsNullOrEmpty(binario) && EsBinario(binario))
+            {
+                char[] binarioA_Decimal = binario.ToCharArray();
+                double potencia = 0;
+                double numeroConvertido = 0;
+
+                for(int i = binarioA_Decimal.Length; i >= 0; i--)
+                {
+                    if(binarioA_Decimal[i] == '1')
+                    {
+                        numeroConvertido = numeroConvertido + Math.Pow(2, potencia);
+                    }
+                    potencia++;
+                }
+                retorno = numeroConvertido.ToString();
+                return retorno;
+            }
+            return retorno;
         }
 
         //TODO
@@ -62,9 +80,24 @@ namespace Entidades
             return "lalala";
         }
 
-        //TODO
-        private bool EsBinario(string binario)
+        private static bool EsBinario(string binario)
         {
+            if (string.IsNullOrEmpty(binario))
+            {
+                return false;
+            }
+            else
+            {
+                char[] binarioA_Array = binario.ToCharArray();
+
+                for (int i = 0; i < binarioA_Array.Length; i++)
+                {
+                    if (binarioA_Array[i] != '0' && binarioA_Array[i] != '1')
+                    {
+                        return false;
+                    }
+                }
+            }
             return true;
         }
 

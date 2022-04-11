@@ -3,3 +3,10 @@ D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_l
 D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
 D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
 D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\bin\Debug\net5.0\Entidades.deps.json
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\bin\Debug\net5.0\Entidades.dll
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\bin\Debug\net5.0\Entidades.pdb
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\Entidades.dll
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\refint\Entidades.dll
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\Entidades.pdb
+D:\Documentos\EZEQUIEL\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_labo_II\tps_laboratorio_ii\TP1\Brutto.Ezequiel.2D.TP1\Entidades\obj\Debug\net5.0\ref\Entidades.dll

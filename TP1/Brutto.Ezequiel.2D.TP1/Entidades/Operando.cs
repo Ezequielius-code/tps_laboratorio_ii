@@ -8,6 +8,7 @@ namespace Entidades
 {
     public class Operando
     {
+        //TODO : Documentar
         private double numero; 
 
         public Operando()
@@ -37,7 +38,7 @@ namespace Entidades
         {
             double numeroValidado = 0;
 
-            if(!string.IsNullOrEmpty(strNumero) && double.TryParse(strNumero, out numeroValidado))
+            if(double.TryParse(strNumero, out numeroValidado))
             {
                 return numeroValidado;
             }
@@ -71,13 +72,36 @@ namespace Entidades
         //TODO
         public string DecimalBinario(double numero)
         {
-            return "lalala";
+            string retorno = "Valor inválido.";
+            string numeroBinario = "";
+            if (numero >= 0)
+            {
+                int numeroABinario = (int)Math.Truncate(numero);
+                while (numeroABinario > 0)
+                {
+                    numeroBinario = numeroABinario % 2 + numeroBinario;
+                    numeroABinario = numeroABinario / 2;
+                }
+
+                return numeroBinario;
+            }
+
+            return retorno;
         }
 
-        //TODO
         public string DecimalBinario(string numero)
         {
-            return "lalala";
+            string retorno = "Valor inválido.";
+            double numeroAux;
+
+            if (double.TryParse(numero, out numeroAux))
+            {
+                string numeroBinario = DecimalBinario(numeroAux);
+
+                return numeroBinario;
+            }
+
+            return retorno;
         }
 
         private static bool EsBinario(string binario)
@@ -101,28 +125,33 @@ namespace Entidades
             return true;
         }
 
-        //TODO
         public static double operator +(Operando n1, Operando n2)
         {
-            return n1 + n2;
+            double retorno = n1.numero + n2.numero;
+            return retorno;
         }
 
-        //TODO
         public static double operator -(Operando n1, Operando n2)
         {
-            return n1 - n2;
+            double retorno = n1.numero - n2.numero;
+            return retorno;
         }
 
-        //TODO
         public static double operator *(Operando n1, Operando n2)
         {
-            return n1 * n2;
+            double retorno = n1.numero * n2.numero;
+            return retorno;
         }
 
-        //TODO
         public static double operator /(Operando n1, Operando n2)
         {
-            return n1 / n2;
+            double retorno = double.MinValue;
+            if (n2.numero != 0)
+            {
+                retorno = n1.numero / n2.numero;
+                return retorno;
+            }
+            return retorno;
         }
     }
 }

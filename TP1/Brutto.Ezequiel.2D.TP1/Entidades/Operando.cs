@@ -55,7 +55,7 @@ namespace Entidades
                 double potencia = 0;
                 double numeroConvertido = 0;
 
-                for(int i = binarioA_Decimal.Length; i >= 0; i--)
+                for(int i = binarioA_Decimal.Length - 1; i >= 0; i--)
                 {
                     if(binarioA_Decimal[i] == '1')
                     {

@@ -8,24 +8,40 @@ namespace Entidades
 {
     public class Operando
     {
-        //TODO : Documentar
         private double numero; 
 
+        /// <summary>
+        /// Constructor que se utiliza en el caso de no recibir un argumento.
+        /// </summary>
         public Operando()
         {
             this.numero = 0;
         }
 
+        /// <summary>
+        /// Constructor que con un parámetro que recibe como argumento un valor de tipo
+        /// double que iniciará el atributo de la clase con el valor pasado como argumento.
+        /// </summary>
+        /// <param name="numero">Recibe el argumento que inicializará al atributo de la clase con el valor provisto</param>
         public Operando(double numero)
         {
             this.numero = numero;
         }
 
+        /// <summary>
+        /// Constructor que recibe un valor de tipo string como argumento e inicializa el atributo de 
+        /// la clase utilizando la propiedad Numero de la misma.
+        /// </summary>
+        /// <param name="strNumero">Recibe el atributo que inicializará como atributo de la clase</param>
         public Operando(string strNumero)
         {
             Numero = strNumero;
         }
 
+        /// <summary>
+        /// Propiedad con sólo un descriptor de acceso set que asigna un valor al atributo de clase
+        /// utilizando el método ValidarOperando(); de esta misma clase.
+        /// </summary>
         private string Numero
         {
             set
@@ -34,6 +50,12 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Toma un argumento de tipo string y lo convierte en un valor de tipo double.
+        /// </summary>
+        /// <param name="strNumero">Toma el argumento al que intentará convertir a un valor de tipo double</param>
+        /// <returns>En caso de éxito, devuelve el valor convertido en un número de tipo double. Si no puede 
+        /// realizar la conversión, devuelve un 0(cero)</returns>
         private double ValidarOperando(string strNumero)
         {
             double numeroValidado = 0;
@@ -45,6 +67,14 @@ namespace Entidades
             return numeroValidado;
         }
 
+        /// <summary>
+        /// Recibe una cadena de texto, valida que corresponda con el formato de un número binario mediante
+        /// el método EsBinario de esta clase y opera para convertir este número binario en un número del
+        /// sistema decimal con formato string.
+        /// </summary>
+        /// <param name="binario">Cadena de texto a evaluar y, en caso positivo, con la cual operar.</param>
+        /// <returns>En caso de éxito un número del sistema decimal en formato string. Si fracasa, la 
+        /// leyenda "Valor inválido."</returns>
         public string BinarioDecimal(string binario)
         {
             string retorno = "Valor inválido.";
@@ -69,7 +99,13 @@ namespace Entidades
             return retorno;
         }
 
-        //TODO
+        /// <summary>
+        /// Convierte un número de tipo double en un número binario equivalente en formato string.
+        /// Si el número tiene decimales, los trunca y sólo convierte en binario la parte entera.
+        /// </summary>
+        /// <param name="numero">Número que recibe para convertir</param>
+        /// <returns>Si puede convertir el número, devuelve un número binario como un valor de tipo string. 
+        /// Caso contrario, devuelve la leyenda "Valor inválido."</returns>
         public string DecimalBinario(double numero)
         {
             string retorno = "Valor inválido.";
@@ -89,6 +125,13 @@ namespace Entidades
             return retorno;
         }
 
+        /// <summary>
+        /// Recibe un número decimal en formato string, lo convierte en un valor de tipo double
+        /// y reutilizando el método de la clase con el mismo nombre lo convierte en binario.
+        /// </summary>
+        /// <param name="numero">Recibe el argumento que intentará convertir</param>
+        /// <returns>En caso de éxito, un número binario equivalente en formato string.
+        /// Si fracasa, la leyenda "Valor inválido."</returns>
         public string DecimalBinario(string numero)
         {
             string retorno = "Valor inválido.";
@@ -104,6 +147,13 @@ namespace Entidades
             return retorno;
         }
 
+        /// <summary>
+        /// Método que valida que un número binario recibido como string coincida con el formato de un número binario.
+        /// Para hacerlo, convierte el string en un array de caracteres y evalúa uno por uno para que no hay valores 
+        /// distintos a ceros y unos.
+        /// </summary>
+        /// <param name="binario">Recibe el argumento que será evaluado</param>
+        /// <returns>En caso de que se corresponda con un número binario 'true', de lo contrario 'false'.</returns>
         private static bool EsBinario(string binario)
         {
             if (string.IsNullOrEmpty(binario))
@@ -125,24 +175,49 @@ namespace Entidades
             return true;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador '+' para sumar dos objetos de tipo Operando.
+        /// </summary>
+        /// <param name="n1">1er objeto de tipo Operando</param>
+        /// <param name="n2">2do objeto de tipo Operando</param>
+        /// <returns>El resultado de la suma entre ambos objetos</returns>
         public static double operator +(Operando n1, Operando n2)
         {
             double retorno = n1.numero + n2.numero;
             return retorno;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador '-' para restar dos objetos de tipo Operando.
+        /// </summary>
+        /// <param name="n1">1er objeto de tipo Operando</param>
+        /// <param name="n2">2do objeto de tipo Operando</param>
+        /// <returns>El resultado de la resta entre ambos objetos</returns>
         public static double operator -(Operando n1, Operando n2)
         {
             double retorno = n1.numero - n2.numero;
             return retorno;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador '*' para multiplicar dos objetos de tipo Operando.
+        /// </summary>
+        /// <param name="n1">1er objeto de tipo Operando</param>
+        /// <param name="n2">2do objeto de tipo Operando</param>
+        /// <returns>El resultado de la multiplicación entre ambos objetos</returns>
         public static double operator *(Operando n1, Operando n2)
         {
             double retorno = n1.numero * n2.numero;
             return retorno;
         }
 
+        /// <summary>
+        /// Sobrecarga del operador '/' para dividir dos objetos de tipo Operando.
+        /// </summary>
+        /// <param name="n1">1er objeto de tipo Operando</param>
+        /// <param name="n2">2do objeto de tipo Operando</param>
+        /// <returns>El resultado de la división entre ambos objetos. 
+        /// Si el divisor es 0(cero), double.MinValue</returns>
         public static double operator /(Operando n1, Operando n2)
         {
             double retorno = double.MinValue;

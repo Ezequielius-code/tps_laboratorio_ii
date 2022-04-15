@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectUniqueName": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "projectName": "MiCalculadora",
-      "projectPath": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectPath": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\obj\\",
+      "outputPath": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\MiCalculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj": {
-              "projectPath": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj"
+            "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj": {
+              "projectPath": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -86,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

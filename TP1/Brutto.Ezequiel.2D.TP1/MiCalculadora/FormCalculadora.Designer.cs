@@ -48,7 +48,7 @@
             this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblResultado.Size = new System.Drawing.Size(406, 45);
             this.lblResultado.TabIndex = 0;
-            this.lblResultado.Text = "-";
+            this.lblResultado.Text = "";
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txtNumero1
@@ -66,10 +66,10 @@
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
             " ",
+            "+",
             "-",
-            "*",
             "/",
-            "+"});
+            "*"});
             this.cmbOperador.Location = new System.Drawing.Point(179, 73);
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(75, 45);

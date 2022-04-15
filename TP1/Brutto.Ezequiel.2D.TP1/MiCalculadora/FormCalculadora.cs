@@ -55,14 +55,26 @@ namespace MiCalculadora
             Limpiar();
         }
 
+        /// <summary>
+        /// Vuelve a iniciar el display por defecto para los campos de ingreso de texto, la etiqueta de resultado
+        /// y el selector de operador matemático.
+        /// </summary>
         private void Limpiar()
         {
             txtNumero1.Text = "";
             txtNumero2.Text = "";
-            cmbOperador.SelectedIndex = 0;
             lblResultado.Text = "";
+            cmbOperador.SelectedIndex = 0;
         }
 
+        /// <summary>
+        /// Utiliza sus parámetros para recibir argumentos que instanciará en la clase Operando y, mediante 
+        /// el método Operar de la Clase Calculadora, retornará el valor de la operación deseada.
+        /// </summary>
+        /// <param name="numero1">Recibe como argumento el valor en formato string que se utilizará como 1er operando</param>
+        /// <param name="numero2">Recibe como argumento el valor en formato string que se utilizará como 2do operando</param>
+        /// <param name="operador">Recibe como argumento un caracter que utillizará como operador entre ambos operandos</param>
+        /// <returns>El valor de tipo double devuelto por el método Operar de la clase Calculadora como resultado</returns>
         private static double Operar(string numero1, string numero2, string operador)
         {
             Operando operando1 = new Operando(numero1);

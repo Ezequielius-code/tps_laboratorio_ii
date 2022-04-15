@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj",
+      "projectPath": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\EZEQUIEL\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_labo_II\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\obj\\",
+      "outputPath": "D:\\Documentos\\TUP - UTNFRA\\2do CUATRIMESTRE\\PROG-Y-LABO.RECURSADA\\tps_laboratorio_ii\\TP1\\Brutto.Ezequiel.2D.TP1\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

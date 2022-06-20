@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClassesLibrary;
+using ClassesLibrary.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,26 +22,39 @@ namespace Forms
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            if (txtUsername.Text == "asd" && txtPassword.Text == "123")
+            try
             {
-                MessageBox.Show("Has ingresado con éxito");
-                Thread.Sleep(1000);
-                this.Close();
+                string username = txtUsername.Text;
+                string password = txtPassword.Text;
+
+                if (UsersManager.CheckUser(username, password))
+                {
+                    MessageBox.Show("Welcome " + username);
+                    Thread.Sleep(1000);
+                    this.Close();
+                }
             }
-            else
+            catch (InvalidUserException ex)
             {
-                DialogResult result = MessageBox.Show("Usuario no válido.\n¿Desea reintentar?", "ERROR", MessageBoxButtons.YesNo);
+                ExLogger.CatchLog(ex);
+                DialogResult result = MessageBox.Show(ex.Message, "ACCESS DENIED", MessageBoxButtons.YesNo, MessageBoxIcon.Stop);
                 if (result == DialogResult.No)
                 {
                     this.Close();
                 }
             }
+            catch (Exception ex)
+            {
+                ExLogger.CatchLog(ex);
+                MessageBox.Show("Unable to begin the app.", "FATAL SYSTEM ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                this.Close();
+            }
         }
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-            txtUsername.Text = "asd";
-            txtPassword.Text = "123";
+            txtUsername.Text = "test123";
+            txtPassword.Text = "asd123";
         }
     }
 }

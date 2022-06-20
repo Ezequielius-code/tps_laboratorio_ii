@@ -17,3 +17,8 @@ D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratori
 D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\obj\Debug\net5.0-windows\Forms.pdb
 D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\obj\Debug\net5.0-windows\Forms.genruntimeconfig.cache
 D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\obj\Debug\net5.0-windows\ref\Forms.dll
+D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\bin\Debug\net5.0-windows\DocumentFormat.OpenXml.dll
+D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\bin\Debug\net5.0-windows\SpreadsheetLight.dll
+D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\bin\Debug\net5.0-windows\ClassesLibrary.dll
+D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\bin\Debug\net5.0-windows\ClassesLibrary.pdb
+D:\Documentos\TUP - UTNFRA\2do CUATRIMESTRE\PROG-Y-LABO.RECURSADA\tps_laboratorio_ii\TP3\Brutto.EzequielAndres.2D.TPFinal\Forms\obj\Debug\net5.0-windows\Forms.csproj.CopyComplete
